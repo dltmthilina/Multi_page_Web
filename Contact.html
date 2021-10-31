@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content = "with = device-width, initial-scale=1.0">
+        <title>University Wed Design</title>
+        <link rel = "stylesheet", href  = "style.css" >
+        <link rel = "stylesheet", href  = "/css/all.min.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <section class = "sub-header">
+        <nav>
+            <a href="index.html,"><img src="images/logo.png"></a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href = "University.html">HOME</a></li>
+                    <li><a href = "About.html" >ABOUT</a></li>
+                    <li><a href = "Courses.html" >COURSE</a></li>
+                    <li><a href = "Blog.html" >BLOG</a></li>
+                    <li><a href = "Contact.html" >CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        </section>
+
+   <!-- ------------- contact us content -------------      -->
+   ,<section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.2149214260676!2d79.99376881376092!3d6.864828495039131!2m3!1f0!2f0!3f0!3m2!1i1024!
+        2i768!4f13.1!3m3!1m2!1s0x3ae25170c8edfa5b%3A0x8b15f695dbccb5a7!2sWalgama%20Junction%2
+        0Bus%20Stop!5e0!3m2!1sen!2slk!4v1629302397193!5m2!1sen!2slk" width="600" height="450" 
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Pitakadamulla, Walandura, Kuruwita</h5>
+                        <p>Rathnapura, Sri Lanka</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+94717053630</h5>
+                        <p>Monday to Saturday,10AM to 6PM </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>disanayakadltm@gmail.com</h5>
+                        <p>Monday to Saturday,10AM to 6PM </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+   <!--  ---------Footer----------   --> 
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>fnguh jgjhe fngbsdn nfnudn nh unhndnd hudhij bfdybn hbg <br>jgiji guh uhgfuhfnjkxdng nguhu8ghfgijn uguig </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa-fa-heart-o"></i> by Easy Tutorials</p>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px"
+            }
+        </script>
+
+    </body>
+</html>
